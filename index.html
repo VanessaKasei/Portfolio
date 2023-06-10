@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <title>
+            My Portfolio
+        </title>
+        <style>
+            ul.navbar{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: white;
+                
+            }
+
+            ul.navbar li{
+                float: left;
+            }
+
+            ul.navbar li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            ul.navbar li a:hover {
+                background-color: rgb(235, 228, 228);
+            }
+            ul.navbar li.active {
+                background-color: brown;
+            }
+
+            ul.navbar li.active a {
+                color: white;
+            }  
+            </style>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+        </ul>
+        <img src="photo2.jpg" alt="my photo">
+        <div class="container">
+            <h1 style="font-size: 90px;">
+                Hi there! 
+            </h1>
+            <p>
+                I am Vanessa Kasei,a Front-end developer and a UI/UX designer.
+            </p> 
+        </div>
+        <button id="Github" onclick="redirectToGithub()" style="color: black;"> GitHub </button>
+    </body>
+</html>
