@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
         <script src="index.js"></script>
         <title>
             My Portfolio
@@ -42,23 +44,47 @@
     </head>
     <body>
         <ul class="navbar">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="aboutMe">About me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
         </ul>
-        <div class="container">
-            <img src="photo2.jpg" alt="my photo">
-            <p>I am Vanessa Kasei,a creative and detail-oriented front-end developer with a passion for crafting</p>
-            <p>immersive web experiences. With a strong foundaton in HTML, CSS and JavaScript. I specialize in</p>
-            <p>transforming ideas into beautifully designed, user-friendly websites. With a keen eye for design,</p>
-            <p>I focus on creating visually compelling interfaces that engage and captivate users. I am well-versed</p>
-            <p>in modern frameworks like React allowing me to build dynamic and interacive web applications that</p>
-            <p>provide smooth and enjoyable user experience</p>
+        <div class="image-container">
+            <div class="aboutMe">
+                <div class="greeting">
+                    <h1 style="font-size: 30px;">
+                        Hi
+                        <span class="wave-emoji">&#x1F44B;,</span>
+                        <br>
+                        I am Vanessa Kasei,
+                        <br>
+                        a freelance Front-end Developer.
+                    </h1>
+                    <p> </p>
+                </div>
+
+            </div>
+            <img src="photo2.jpg" alt="my photo" class="my-photo">
         </div>
-        <button id="Resume"><a href="C:\Users\mainl\OneDrive\Documents\Here is my CV">Download resume</a></p></button>
+        <br>
+        <br>
+        <br>
+        <button id="Resume"><a href="C:\Users\mainl\OneDrive\Documents\Here is my CV"><i class="fas fa-download"></i>Download resume</a></button>
+        <section id="contact">
+            <h3 style="color: white;">Let's Connect!</h3>
+            <p>Ready to start a project or have any questions or gigs Feel free to reach out to me.</p>
+            <a href="mailto:kaseivanessa@gmil.com" class="contact-button"><i class="fas fa-envelope"></i> Email me</a>
+            <span class="contact-divider" style="color: white;"> | kaseivanessa@gmail.com </span>
+            <p>Tel:+254710705715</p>
+
+        </section>
+        </main>
+        
         <footer>
-            <p>Contact information :Email : kaseivanessa@gmail.com | Phone : 0710705715</p>
-            <p>&copy; 2023 My Website. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/vanessa-kasei-ba91b8237/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/yourprofile"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2023 Vanessa Kasei. All rights reserved.</p>
         </footer>
     </body>
 </html>
